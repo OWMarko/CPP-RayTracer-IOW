@@ -2,6 +2,8 @@
 #define CAMERA_H
 
 #include "rtweekend.hpp"
+#include "vec3.hpp"
+#include "ray.hpp"
 
 // This class represent a virtual camera
 // It handles the projection of the 3D world onto the 2D image plane (Sensor)
