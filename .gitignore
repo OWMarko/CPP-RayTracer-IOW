@@ -1,0 +1,58 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+raytracer
+raytracer.exe
+
+# CMake build folder
+build/
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+
+# VS Code & IDEs
+.vscode/
+.idea/
+*.swp
+*.DS_Store
+
+# Images output (On ne veut pas versionner les tests, sauf celles du dossier images/)
+*.ppm
+*.png
+*.jpg
+!images/*.png
+!images/*.jpg
